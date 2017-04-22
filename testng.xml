@@ -1,0 +1,25 @@
+
+
+
+
+<suite name="Suite">
+  
+  <test name="Test">
+    <classes>
+      <class name="week2_testng.NewTest"/>
+      <class name="week2_testng.Frames_Paytm"/>
+    </classes>
+  </test>
+  
+  
+  <test name="Test2">
+    <classes>
+      <class name="week2_AUI.Slider"/>
+     
+    </classes>
+  </test>
+  
+   
+</suite> 
+
+

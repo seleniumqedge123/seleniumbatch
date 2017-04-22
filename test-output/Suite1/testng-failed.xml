@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="iexplore"/>
+  <test name="Regression13(failed)" parallel="tests">
+    <parameter name="browser" value="iexplore"/>
+    <classes>
+      <class name="week3_sat_grid.Grid1">
+        <methods>
+          <include name="sample" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- week3_sat_grid.Grid1 -->
+    </classes>
+  </test> <!-- Regression13(failed) -->
+  <test name="Regression12(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="week3_sat_grid.Grid1">
+        <methods>
+          <include name="sample" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- week3_sat_grid.Grid1 -->
+    </classes>
+  </test> <!-- Regression12(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

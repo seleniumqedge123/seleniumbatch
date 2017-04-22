@@ -1,0 +1,43 @@
+
+
+
+<suite name="Suite1" parallel="tests" >
+
+<test name="Regression1" >
+  <parameter name="browser" value="firefox"/>
+  
+  <classes>
+    <class name="week3_sat_grid.Grid1">
+    </class>
+ 
+  </classes>
+</test>
+
+
+<test name="Regression12">
+  <parameter name="browser" value="chrome"/>
+  <classes>
+ 
+    <class name="week3_sat_grid.Grid1"> 
+    </class>
+ 
+  </classes>
+</test>
+
+
+<test name="Regression13">
+  <parameter name="browser" value="iexplore"/>
+  <classes>
+  
+    <class name="week3_sat_grid.Grid1">
+    </class>
+ 
+  </classes>
+</test>
+
+</suite>
+
+
+
+
+
